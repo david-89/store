@@ -1,8 +1,6 @@
 # store
 
 OnlineStore - the biggest web application here. It simulates online shopping with buyer account registration and admin account registration. 
-N.B. In order to make it functional on the local machine, jdbc connection string in Spring and Hibernate config files needs to be modified, along with the location of the uploaded images on your local machine in app.images package. In addition, itext 5.0.1 jar file provided in the project list needs to be downloaded and inserted as a library so that the app may recongize classes that work with writing the report for the admin in pdf (app.pdf package).
-
 
 FileRenamer - simple GUI application that renames files in a folder by picking the list of names from another file. 
 The extensions of the files that are about to be changed must be left intact.
